@@ -34,7 +34,7 @@ public class IntroActivity extends AppCompatActivity {
     }
 
     public void clickGetStarted(View view) {
-        Intent i = new Intent(IntroActivity.this, WelcomeSlideSuperHero.class);
+        Intent i = new Intent(IntroActivity.this, WelcomeBack.class);
         startActivity(i);
     }
 
